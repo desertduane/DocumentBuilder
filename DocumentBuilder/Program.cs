@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DocumentBuilder.Classes;
+using System;
 
 namespace DocumentBuilder
 {
@@ -6,7 +7,15 @@ namespace DocumentBuilder
     {
         static void Main(string[] args)
         {
-            
+            Documents JoeResume = new SoYouDontHaveTo();
+            JoeResume.GetDocument("Resume");
+            Console.WriteLine();
+
+            Documents EssayCheater = new SoYouDontHaveTo();
+            EssayCheater.GetDocument("Essay");
+
+
+            Console.Read();
         }
     }
 }
