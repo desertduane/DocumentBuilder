@@ -6,6 +6,7 @@ namespace DocumentBuilder.Classes
 {
     class ResumeDoc : Document
     {
+        //assembles a resume
         public ResumeDoc()
         {
             Name = "Average Joe";

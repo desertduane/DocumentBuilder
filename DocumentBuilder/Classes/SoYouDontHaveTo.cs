@@ -8,6 +8,7 @@ namespace DocumentBuilder.Classes
     {
         protected override Document CreateDocuments(string document)
         {
+            //starts the document building process based on the document type passed in
             Console.WriteLine("We make your documents so you don't have to");
 
             return DocumentFactory.CreateDocument(document);

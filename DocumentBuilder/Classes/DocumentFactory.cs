@@ -9,7 +9,7 @@ namespace DocumentBuilder.Classes
         public static Document CreateDocument(string document)
         {
             Document doc = new Document();
-
+            //begins building a resume or essay depending on which is asked for
             switch (document)
             {
                 case "Resume":

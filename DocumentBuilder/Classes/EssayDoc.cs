@@ -6,6 +6,7 @@ namespace DocumentBuilder.Classes
 {
     class EssayDoc : Document
     {
+        //assembles an essay
         public EssayDoc()
         {
             Name = "Average Joe";

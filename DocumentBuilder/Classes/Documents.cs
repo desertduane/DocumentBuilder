@@ -10,6 +10,7 @@ namespace DocumentBuilder.Classes
 
         public Document GetDocument(string document)
         {
+            //methods called to build the desired document. 
             Document doc = null;
 
             doc = CreateDocuments(document);
